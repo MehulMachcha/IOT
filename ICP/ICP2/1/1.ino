@@ -233,12 +233,12 @@ ISR(TIMER2_COMPA_vect){                       // triggered when Timer2 counts to
       BPM = 60000/runningTotal;               // how many beats can fit into a minute? that's BPM!
       QS = true;                              // set Quantified Self flag 
       // QS FLAG IS NOT CLEARED INSIDE THIS ISR
-      if(BPM<80){ //orange
+      if(BPM<100){ //orange
         digitalWrite(3, HIGH);
         digitalWrite(4, LOW);
         digitalWrite(5, LOW);
       }
-      else if(BPM>100){ //Red
+      else if(BPM>170){ //Red
           digitalWrite(3, LOW);
           digitalWrite(4, HIGH);
           digitalWrite(5, LOW);
