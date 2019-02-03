@@ -115,7 +115,7 @@ void loop(){
   start: //label 
   error=0;
   delay(1000);
-  //updatebeat();
+  updatebeat();
   //Resend if transmission is not completed 
   if (error==1){
     goto start; //go to label "start"
