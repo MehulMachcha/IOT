@@ -1,0 +1,11 @@
+{
+  "name": "node-red-contrib-yhzz63-celsius-to-fahrenheit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "celsius-to-fahrenheit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
