@@ -18,7 +18,7 @@ float temp;
 int hum;
 String tempC;
 int error;
-int pulsePin = 0;                 // Pulse Sensor purple wire connected to analog pin 0
+int pulsePin = 3;                 // Pulse Sensor purple wire connected to analog pin 0
 int blinkPin = 13;                // pin to blink led at each beat
 int fadePin = 5;
 int fadeRate = 0;

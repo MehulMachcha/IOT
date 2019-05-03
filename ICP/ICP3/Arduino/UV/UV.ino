@@ -24,7 +24,7 @@ void loop()
   long  sum=0;
   for(int i=0;i<1024;i++)
    {  
-      sensorValue=analogRead(A0);
+      sensorValue=analogRead(A2);
       sum=sensorValue+sum;
       delay(2);
    }   
